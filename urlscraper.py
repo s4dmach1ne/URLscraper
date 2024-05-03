@@ -43,6 +43,7 @@ if __name__ == "__main__":
     url = sys.argv[1]
     links = extract_links(url)
 
-    print("Links found on", url, ":\n")
+    print("\nLinks and paths found on [", url, "] :\n")
     for link in links:
         print(link)
+    print("\n")
